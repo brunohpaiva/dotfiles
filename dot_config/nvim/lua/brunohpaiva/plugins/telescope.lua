@@ -10,6 +10,7 @@ return {
             build = 'make',
         }
     },
+    lazy = true,
     keys = {
         { '<leader>ff', '<cmd>Telescope find_files<cr>' },
         { '<leader>fg', '<cmd>Telescope git_files<cr>' },

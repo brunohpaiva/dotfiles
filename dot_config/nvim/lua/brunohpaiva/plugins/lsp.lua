@@ -10,7 +10,7 @@ return {
         'hrsh7th/nvim-cmp',
         'L3MON4D3/LuaSnip',
         'saadparwaiz1/cmp_luasnip',
-        { 'j-hui/fidget.nvim',       opts = {} },
+        { 'j-hui/fidget.nvim', opts = {} },
     },
     config = function()
         local capabilities = require('cmp_nvim_lsp').default_capabilities()
@@ -69,5 +69,7 @@ return {
                 { name = 'buffer' },
             })
         })
+
+        vim.diagnostic.config({ virtual_text = true })
     end
 }
