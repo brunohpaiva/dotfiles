@@ -1,3 +1,4 @@
 nodejs 20.6.1
 rust 1.69.0
-golang 1.21.5
+golang 1.21.6
+ruby 3.3.0
