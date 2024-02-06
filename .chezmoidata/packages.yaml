@@ -1,0 +1,6 @@
+packages:
+  fedora:
+    dnf:
+      - 'xl2tpd'
+      - 'NetworkManager-l2tp'
+      - 'NetworkManager-l2tp-gnome'
