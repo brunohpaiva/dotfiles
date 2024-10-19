@@ -1,0 +1,16 @@
+# adds ./.local/bin to $PATH
+if ! [[ "$PATH" =~ "$HOME/.local/bin:" ]] then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+export PATH
+
+# loads asdf
+[[ -f "$HOME/.asdf/asdf.sh" ]] && source "$HOME/.asdf/asdf.sh"
+fpath=(${ASDF_DIR}/completions $fpath)
+
+autoload -Uz compinit; compinit
+
+source "$ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
+
+eval "$(starship init zsh)"
+
