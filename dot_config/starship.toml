@@ -1,0 +1,84 @@
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$golang\
+$c\
+$gradle\
+$java\
+$lua\
+$deno\
+$nodejs\
+$bun\
+$sudo\
+$line_break\
+$container\
+$shell\
+$character"""
+
+[bun]
+format = '\[[$symbol($version)]($style)\]'
+symbol = 'bun '
+
+[c]
+format = '\[[$symbol($version(-$name))]($style)\]'
+symbol = 'c '
+
+[cmake]
+format = '\[[$symbol($version)]($style)\]'
+symbol = 'cmake '
+
+[deno]
+format = '\[[$symbol($version)]($style)\]'
+symbol = 'deno '
+
+[docker_context]
+format = '\[[$symbol$context]($style)\]'
+
+[git_branch]
+format = '\[[$symbol$branch]($style)\]'
+
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($style))'
+
+[golang]
+format = '\[[$symbol($version)]($style)\]'
+symbol = 'go '
+
+[gradle]
+format = '\[[$symbol($version)]($style)\]'
+symbol = 'gradle '
+
+[java]
+format = '\[[$symbol($version)]($style)\]'
+symbol = 'java '
+
+[kotlin]
+format = '\[[$symbol($version)]($style)\]'
+symbol = 'kt '
+
+[lua]
+format = '\[[$symbol($version)]($style)\]'
+symbol = 'lua '
+
+[nodejs]
+format = '\[[$symbol($version)]($style)\]'
+symbol = 'nodejs '
+
+[python]
+format = '\[[${symbol}${pyenv_prefix}(${version})(\($virtualenv\))]($style)\]'
+symbol = 'py '
+
+[rust]
+format = '\[[$symbol($version)]($style)\]'
+symbol = 'rust '
+
+[sudo]
+format = '\[[as $symbol]($style)\]'
+
+[username]
+format = '\[[$user]($style)\]'
