@@ -8,6 +8,12 @@ export PATH
 [[ -f "$HOME/.asdf/asdf.sh" ]] && source "$HOME/.asdf/asdf.sh"
 fpath=(${ASDF_DIR}/completions $fpath)
 
+fpath=(${ZDOTDIR}/functions $fpath)
+# checks if the $ZDOTDIR/functions directory is not empty
+if [[ -n "$(ls -A $ZDOTDIR/functions)" ]] then
+    autoload -Uz $fpath[1]/*(.:t)
+fi
+
 autoload -Uz compinit; compinit
 
 source "$ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
