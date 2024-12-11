@@ -18,5 +18,9 @@ autoload -Uz compinit; compinit
 
 source "$ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
 
+bindkey "^[[1;5C" forward-word # ctrl + right arrow
+bindkey "^[[1;5D" backward-word # ctrl + left arrow
+bindkey "^[[3~" delete-char # delete key
+
 eval "$(starship init zsh)"
 
