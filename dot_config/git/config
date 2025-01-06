@@ -8,8 +8,11 @@
 [init]
 	defaultBranch = main
 [commit]
-	gpgsign = true
+	gpgSign = true
 [gpg]
 	format = ssh
 [gpg "ssh"]
 	program = "/opt/1Password/op-ssh-sign"
+
+[includeIf "gitdir:~/dev/work/sigane/"]
+	path = "~/dev/work/sigane/.gitconfig"
