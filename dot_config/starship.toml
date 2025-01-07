@@ -6,19 +6,13 @@ $git_branch\
 $git_commit\
 $git_state\
 $git_status\
-$golang\
-$c\
-$gradle\
-$java\
-$lua\
-$deno\
-$nodejs\
-$bun\
 $sudo\
-$line_break\
 $container\
 $shell\
 $character"""
+
+[character]
+format = ' $symbol '
 
 [bun]
 format = '\[[$symbol($version)]($style)\]'
