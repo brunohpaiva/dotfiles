@@ -2,7 +2,12 @@
 if ! [[ "$PATH" =~ "$HOME/.local/bin:" ]] then
     PATH="$HOME/.local/bin:$PATH"
 fi
-export PATH
+
+# adds pnpm to $PATH
+PNPM_HOME="$HOME/.local/share/pnpm"
+if ! [[ "$PATH" =~ "$PNPM_HOME:" ]] then
+    PATH="$PNPM_HOME:$PATH"
+fi
 
 # loads asdf
 [[ -f "$HOME/.asdf/asdf.sh" ]] && source "$HOME/.asdf/asdf.sh"
@@ -23,4 +28,3 @@ bindkey "^[[1;5D" backward-word # ctrl + left arrow
 bindkey "^[[3~" delete-char # delete key
 
 eval "$(starship init zsh)"
-
