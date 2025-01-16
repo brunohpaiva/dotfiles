@@ -1,0 +1,5 @@
+# misc
+alias cat='bat'
+
+# vcs
+alias lg='lazygit'

@@ -27,4 +27,6 @@ bindkey "^[[1;5C" forward-word # ctrl + right arrow
 bindkey "^[[1;5D" backward-word # ctrl + left arrow
 bindkey "^[[3~" delete-char # delete key
 
+[[ -r "$ZDOTDIR/.aliasrc" ]] && source "$ZDOTDIR/.aliasrc"
+
 eval "$(starship init zsh)"
