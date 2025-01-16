@@ -2,15 +2,31 @@
 	name = Bruno Henrique Paiva
 	email = bruno@bruno.codes
 	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK7CAP6w8XJ9mcssZFA+x/+9iVpmsKYgz+bCOZknHc3b
+
 [core]
 	autocrlf = input
 	editor = /usr/bin/nano
+	pager = delta
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true
+	dark = true
+
+[merge]
+	conflictstyle = zdiff3
+
 [init]
 	defaultBranch = main
+
 [commit]
 	gpgSign = true
+
 [gpg]
 	format = ssh
+
 [gpg "ssh"]
 	program = "/opt/1Password/op-ssh-sign"
 
