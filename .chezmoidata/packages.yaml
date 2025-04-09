@@ -1,6 +1,15 @@
 packages:
   fedora:
+    copr:
+      - 'atim/starship'
+      - 'atim/lazygit'
     dnf:
+      - 'zsh'
+      - 'starship'
+      - 'lazygit'
+      - 'bat'
+      - 'eza'
+      - 'zoxide'
       - 'xl2tpd'
       - 'NetworkManager-l2tp'
       - 'NetworkManager-l2tp-gnome'
