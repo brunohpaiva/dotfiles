@@ -13,6 +13,7 @@ fi
 [[ -f "$HOME/.asdf/asdf.sh" ]] && source "$HOME/.asdf/asdf.sh"
 fpath=(${ASDF_DIR}/completions $fpath)
 
+# loads functions
 fpath=(${ZDOTDIR}/functions $fpath)
 # checks if the $ZDOTDIR/functions directory is not empty
 if [[ -n "$(ls -A $ZDOTDIR/functions)" ]] then
@@ -30,3 +31,5 @@ bindkey "^[[3~" delete-char # delete key
 [[ -r "$ZDOTDIR/.aliasrc" ]] && source "$ZDOTDIR/.aliasrc"
 
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
+source <(fzf --zsh)

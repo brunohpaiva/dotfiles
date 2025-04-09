@@ -1,5 +1,13 @@
 # misc
+
+## requires bat installed
 alias cat='bat'
+## requires eza installed
+alias ls='eza'
+## requires zoxide installed
+alias cd='z'
 
 # vcs
+
+## requires lazygit installed
 alias lg='lazygit'

@@ -2,7 +2,7 @@
 
 Managed with [chezmoi](https://www.chezmoi.io/)
 
-# Installation
+## Installation
 
 ```sh
 sh -c "$(curl -fsLS get.chezmoi.io/lb)" -- init --apply brunohpaiva
@@ -15,4 +15,5 @@ sh -c "$(curl -fsLS get.chezmoi.io/lb)" -- init --apply brunohpaiva
 - asdf
 - lazygit
 - bat
-
+- eza
+- zoxide
