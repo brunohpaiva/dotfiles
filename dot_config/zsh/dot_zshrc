@@ -10,8 +10,8 @@ if ! [[ "$PATH" =~ "$PNPM_HOME:" ]] then
 fi
 
 # loads asdf
-[[ -f "$HOME/.asdf/asdf.sh" ]] && source "$HOME/.asdf/asdf.sh"
-fpath=(${ASDF_DIR}/completions $fpath)
+PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+# TODO: load zsh completions
 
 # loads functions
 fpath=(${ZDOTDIR}/functions $fpath)
