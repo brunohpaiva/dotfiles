@@ -8,7 +8,6 @@ packages:
       - 'starship'
       - 'lazygit'
       - 'bat'
-      - 'eza'
       - 'zoxide'
       - 'xl2tpd'
       - 'NetworkManager-l2tp'
