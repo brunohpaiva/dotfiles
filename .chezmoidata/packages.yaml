@@ -7,6 +7,7 @@ packages:
       - 'zsh'
       - 'starship'
       - 'lazygit'
+      - 'git-delta'
       - 'bat'
       - 'zoxide'
       - 'xl2tpd'
