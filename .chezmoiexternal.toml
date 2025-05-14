@@ -17,3 +17,9 @@
     url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v{{ $nerdFontsVersion }}/JetBrainsMono.tar.xz"
     exact = true
     include = ["JetBrainsMonoNerdFont-*.ttf", "*.txt", "*.md"]
+
+{{ $asdfVersion := "0.16.7" -}}
+[".local/bin/asdf"]
+    type = "archive-file"
+    url = "https://github.com/asdf-vm/asdf/releases/download/v{{ $asdfVersion }}/asdf-v{{ $asdfVersion }}-linux-amd64.tar.gz"
+    path = "asdf"
