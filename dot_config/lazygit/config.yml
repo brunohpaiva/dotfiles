@@ -3,3 +3,6 @@ git:
     colorArg: always
     pager: delta --dark --paging=never
   overrideGpg: true
+
+gui:
+  nerdFontsVersion: '3'
