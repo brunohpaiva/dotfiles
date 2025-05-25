@@ -32,3 +32,6 @@ export PYTHON_HISTORY="$XDG_DATA_HOME/.python_history"
 
 # psql
 export PSQL_HISTORY="$XDG_DATA_HOME/.psql_history"
+
+# sqlite
+export SQLITE_HISTORY="$XDG_DATA_HOME/.sqlite_history"
