@@ -5,7 +5,7 @@
     stripComponents = 1
     refreshPeriod = "168h"
 
-{{ $ezaVersion := "0.21.3" -}}
+{{ $ezaVersion := "0.21.4" -}}
 [".local/bin/eza"]
     type = "archive-file"
     url = "https://github.com/eza-community/eza/releases/download/v{{ $ezaVersion }}/eza_x86_64-unknown-linux-gnu.tar.gz"
@@ -18,7 +18,7 @@
     exact = true
     include = ["JetBrainsMonoNerdFont-*.ttf", "*.txt", "*.md"]
 
-{{ $asdfVersion := "0.16.7" -}}
+{{ $asdfVersion := "0.18.0" -}}
 [".local/bin/asdf"]
     type = "archive-file"
     url = "https://github.com/asdf-vm/asdf/releases/download/v{{ $asdfVersion }}/asdf-v{{ $asdfVersion }}-linux-amd64.tar.gz"
