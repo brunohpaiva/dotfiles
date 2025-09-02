@@ -32,3 +32,10 @@
 
 [includeIf "gitdir:~/dev/work/sigane/"]
 	path = "~/dev/work/sigane/.gitconfig"
+
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[diff]
+	algorithm = histogram
