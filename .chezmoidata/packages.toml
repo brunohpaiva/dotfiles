@@ -1,6 +1,10 @@
 [packages.fedora]
-copr = [
+copr.install = [
     "atim/starship",
+    "dejan/lazygit"
+]
+
+copr.remove = [
     "atim/lazygit"
 ]
 

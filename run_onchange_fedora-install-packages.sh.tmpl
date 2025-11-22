@@ -1,7 +1,11 @@
 {{ if eq .osid "linux-fedora" -}}
 #!/bin/bash
 
-for repo in {{ .packages.fedora.copr | quoteList | join " " }}; do
+for repo in {{ .packages.fedora.copr.remove | quoteList | join " " }}; do
+    sudo dnf copr remove $repo;
+done
+
+for repo in {{ .packages.fedora.copr.install | quoteList | join " " }}; do
     sudo dnf copr enable $repo;
 done
 
