@@ -5,3 +5,5 @@ git:
   overrideGpg: true
 gui:
   nerdFontsVersion: '3'
+os:
+  editPreset: 'nano'
