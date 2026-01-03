@@ -1,4 +1,5 @@
 [tools]
+"github:anomalyco/opencode" = "latest"
 go = "latest"
 node = "latest"
 pnpm = "latest"

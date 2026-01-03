@@ -36,3 +36,6 @@ export SQLITE_HISTORY="$XDG_DATA_HOME/.sqlite_history"
 SAVEHIST=1000
 HISTSIZE=1000
 HISTFILE="$XDG_DATA_HOME/.zsh_history"
+
+# opencode
+export OPENCODE_DISABLE_LSP_DOWNLOAD=true
