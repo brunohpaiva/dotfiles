@@ -1,7 +1,8 @@
 [packages.fedora]
 copr.install = [
     "atim/starship",
-    "dejan/lazygit"
+    "dejan/lazygit",
+    "jdxcode/mise"
 ]
 
 copr.remove = [
@@ -17,5 +18,6 @@ dnf = [
     "zoxide",
     "xl2tpd",
     "NetworkManager-l2tp",
-    "NetworkManager-l2tp-gnome"
+    "NetworkManager-l2tp-gnome",
+    "mise"
 ]

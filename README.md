@@ -12,7 +12,7 @@ sh -c "$(curl -fsLS get.chezmoi.io/lb)" -- init --apply brunohpaiva
 
 - zsh
 - starship
-- asdf
+- mise
 - lazygit
 - bat
 - eza

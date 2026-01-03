@@ -9,10 +9,6 @@ if ! [[ "$PATH" =~ "$PNPM_HOME:" ]] then
     PATH="$PNPM_HOME:$PATH"
 fi
 
-# loads asdf
-PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
-# TODO: load zsh completions
-
 # loads functions
 fpath=(${ZDOTDIR}/functions $fpath)
 # checks if the $ZDOTDIR/functions directory is not empty
@@ -34,4 +30,5 @@ bindkey "^[[F" end-of-line # end key
 
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
+eval "$(mise activate zsh)"
 source <(fzf --zsh)

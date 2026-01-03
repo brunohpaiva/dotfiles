@@ -1,0 +1,8 @@
+[tools]
+go = "latest"
+node = "latest"
+pnpm = "latest"
+
+[settings]
+auto_install = false
+paranoid = true

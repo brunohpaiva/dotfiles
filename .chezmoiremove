@@ -1,0 +1,4 @@
+.local/bin/asdf
+.tool-versions
+.local/share/asdf
+.config/asdf
