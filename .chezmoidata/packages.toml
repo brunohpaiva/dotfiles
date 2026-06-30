@@ -12,6 +12,7 @@ copr.remove = [
 dnf = [
     "zsh",
     "starship",
+    "git",
     "lazygit",
     "git-delta",
     "bat",
