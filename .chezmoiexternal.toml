@@ -17,3 +17,9 @@
     url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v{{ $nerdFontsVersion }}/JetBrainsMono.tar.xz"
     exact = true
     include = ["JetBrainsMonoNerdFont-*.ttf", "*.txt", "*.md"]
+
+[".local/bin/atlas"]
+    type = "file"
+    url = "https://atlasbinaries.com/atlas/atlas-community-linux-amd64-latest"
+    checksum.sha256 = "62ea10ab718a196beeb545b2278d475b4ea0209175d6c0ba52df9d8c21a281e0"
+    executable = true
