@@ -11,7 +11,7 @@ return {
     lazy = true,
     keys = {
         { '<leader>ff', '<cmd>Telescope find_files<cr>' },
-        { '<leader>fg', '<cmd>Telescope git_files<cr>' },
+        { '<leader>fg', '<cmd>Telescope live_grep<cr>' },
     },
     config = function()
         require('telescope').load_extension('fzf')
