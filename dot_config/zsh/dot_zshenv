@@ -33,8 +33,8 @@ export PSQL_HISTORY="$XDG_DATA_HOME/.psql_history"
 export SQLITE_HISTORY="$XDG_DATA_HOME/.sqlite_history"
 
 # zsh
-SAVEHIST=1000
-HISTSIZE=1000
+SAVEHIST=10000
+HISTSIZE=10000
 HISTFILE="$XDG_DATA_HOME/.zsh_history"
 
 # opencode
