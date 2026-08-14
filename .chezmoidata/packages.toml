@@ -17,8 +17,8 @@ dnf = [
     "git-delta",
     "bat",
     "zoxide",
-    "xl2tpd",
-    "NetworkManager-l2tp",
-    "NetworkManager-l2tp-gnome",
+#    "xl2tpd",
+#    "NetworkManager-l2tp",
+#    "NetworkManager-l2tp-gnome",
     "mise"
 ]
