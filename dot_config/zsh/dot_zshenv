@@ -39,3 +39,8 @@ HISTFILE="$XDG_DATA_HOME/.zsh_history"
 
 # opencode
 export OPENCODE_DISABLE_LSP_DOWNLOAD=true
+
+# android
+#export ANDROID_HOME="/mnt/data/android-sdk-linux"
+#export ANDROID_USER_HOME="$XDG_CONFIG_HOME/android"
+#export ANDROID_AVD_HOME="$XDG_DATA_HOME/android/avd"

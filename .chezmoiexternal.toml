@@ -23,3 +23,8 @@
     url = "https://atlasbinaries.com/atlas/atlas-community-linux-amd64-latest"
     checksum.sha256 = "62ea10ab718a196beeb545b2278d475b4ea0209175d6c0ba52df9d8c21a281e0"
     executable = true
+
+[".local/bin/android"]
+    type = "file"
+    url = "https://dl.google.com/android/cli/latest/linux_x86_64/android"
+    executable = true
