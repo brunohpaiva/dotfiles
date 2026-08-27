@@ -3,7 +3,9 @@ atuin = "latest"
 "github:anomalyco/opencode" = "latest"
 go = "latest"
 node = "latest"
+pi = "latest"
 pnpm = "latest"
+rust = "latest"
 
 [settings]
 auto_install = false
