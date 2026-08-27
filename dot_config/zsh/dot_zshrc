@@ -31,4 +31,6 @@ bindkey "^[[F" end-of-line # end key
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 eval "$(mise activate zsh)"
-source <(fzf --zsh)
+eval "$(atuin init zsh --disable-up-arrow)"
+
+
