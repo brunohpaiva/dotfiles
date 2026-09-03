@@ -21,7 +21,7 @@
 [".local/bin/atlas"]
     type = "file"
     url = "https://atlasbinaries.com/atlas/atlas-community-linux-amd64-latest"
-    checksum.sha256 = "62ea10ab718a196beeb545b2278d475b4ea0209175d6c0ba52df9d8c21a281e0"
+    checksum.sha256 = "cec3c78d780f29232a62660cecb64d6508a6e11ced5b5fa0e128c0880c6082d6"
     executable = true
 
 [".local/bin/android"]
